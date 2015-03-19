@@ -1,5 +1,7 @@
 # Message of the Day
 
+[![Build Status](https://travis-ci.org/rroethof/ansible-role-motd.svg?branch=master)](https://travis-ci.org/rroethof/ansible-role-motd)
+
 `motd` is an ansible role which will:
 
  * coping of motd files
