@@ -1,7 +1,7 @@
 ---
 # tasks file for ansible-role-motd
 
-- name: Create a motd file
+- name: Create a motd file based upon custom template
   template:
     src={{ motd_template}}.j2
     dest={{ motd_path }}
@@ -10,7 +10,7 @@
     mode=0644
   when: motd_template is defined
 
-- name: Create a motd file
+- name: Create a motd file based upon default template
   template:
     src=motd.j2
     dest={{ motd_path }}
