@@ -1,0 +1,5 @@
+---
+# defaults file for ansible-role-motd
+
+# Were can we find the motd file
+motd_path: /etc/motd

@@ -1,0 +1,20 @@
+---
+galaxy_info:
+  author: Ronny Roethof
+  description: Manipulates motd
+  company: 
+  license: license (GPLv2, CC-BY, etc)
+  min_ansible_version: 1.6
+  platforms:
+  - name: EL
+    versions:
+    - all
+  - name: Ubuntu
+    versions:
+    - all
+  - name: Debian
+    versions:
+    - all
+  categories:
+  - system
+dependencies: []
